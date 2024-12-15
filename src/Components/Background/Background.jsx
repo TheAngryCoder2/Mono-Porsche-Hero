@@ -8,23 +8,23 @@ import image5 from '../../assets/F37C21DB85FB4547A771546059EAE61B.webp'
 const Background = ({playStatus, heroCount}) => {
   if (heroCount === 0)
   {
-    return <img src={image1} className='background' alt='' />
+    return <img src={image1} className='background fade-in' alt='' />
   }
   else if (heroCount === 1)
     {
-      return <img src={image2} className='background' alt='' />
+      return <img src={image2} className='background fade-in' alt='' />
     }
   else if (heroCount === 2)
     {
-      return <img src={image3} className='background' alt='' />
+      return <img src={image3} className='background fade-in' alt='' />
     }
   else if (heroCount === 3)
     {
-      return <img src={image4} className='background' alt='' />
+      return <img src={image4} className='background fade-in' alt='' />
     }
   else if (heroCount === 4)
     {
-      return <img src={image5} className='background' alt='' />
+      return <img src={image5} className='background fade-in' alt='' />
     }
 
 }
